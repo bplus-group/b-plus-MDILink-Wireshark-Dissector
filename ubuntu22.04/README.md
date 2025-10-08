@@ -20,7 +20,7 @@ Install Wireshark using the following commands
 ```bash
 rsaad@rsaad:~$ sudo add-apt-repository ppa:wireshark-dev/stable
 rsaad@rsaad:~$ sudo apt update
-sudo apt-get install wireshark
+rsaad@rsaad:~$ sudo apt-get install wireshark
 ```
 
 ### 2. Place the bplus plugin
@@ -72,12 +72,12 @@ It is possible to use the I2C Sniffer in TShark to extract all the I2C messages 
 - First open Terminal
 - run the following command: 
 
-`wireshark/build/run/tshark -G protocols | grep -i i2c ` 
+`rsaad@rsaad:~$ tshark -G protocols | grep -i i2c ` 
 
 to make sure that the protocol is correctly recognized by TShark
 - Afterwards run the following command: 
 
-`wireshark/build/run/tshark -r Downloads/test.pcapng -V | grep "I2C Sniffer: Message Payload" > i2c_messages.txt`
+`rsaad@rsaad:~$ tshark -r Downloads/test.pcapng -V | grep "I2C Sniffer: Message Payload" > i2c_messages.txt`
 
 this command will extract the i2c messages from the pcapng and export them to a .txt file
 
