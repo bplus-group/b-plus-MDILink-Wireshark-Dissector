@@ -12,6 +12,7 @@ This Wireshark plugin enables analysis of **MDILink Traffic Protocol** within Wi
 
 ## Supported Platforms
 - **Windows** (`.dll`)
+- **Linux** (`.so`)
 > Binaries are built specifically based on customer requirements.
 
 ---
