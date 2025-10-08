@@ -1,4 +1,4 @@
-# b-plus MDILink Wireshark Dissector v1.0.1
+# b-plus MDILink Wireshark Dissector v1.0.0
 
 ## Overview
 
@@ -12,13 +12,12 @@ This Wireshark plugin enables analysis of **MDILink Traffic Protocol** within Wi
 
 ## Supported Platforms
 - **Windows** (`.dll`)
-- **Linux** (`.so`)  
 > Binaries are built specifically based on customer requirements.
 
 ---
 
 ## Wireshark Compatibility
-- Verified with **Wireshark v4.5**
+- Verified with **Wireshark v4.4**
 
 ---
 

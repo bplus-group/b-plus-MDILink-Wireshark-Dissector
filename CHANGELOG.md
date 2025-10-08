@@ -9,7 +9,7 @@ b-plus technologies GmbH (<https://www.b-plus.com>; <support@b-plus.com>)
 __ __  
 
 
-## 1.0.1: 03.07.2025: Release Version
+## 1.0.0: 08.10.2025: Release Version
 
 **New/Modified Features:**  
 
