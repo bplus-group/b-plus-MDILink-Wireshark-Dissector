@@ -8,7 +8,7 @@ This guide provides instructions on how to install and use the b-plus MDILink Wi
 
 Before using the dissector, ensure you have:
 
-- Wireshark version 4.4
+- Wireshark version 4.6
 - The custom dissector binary (`.dll`)
 
 ---
@@ -18,10 +18,10 @@ Before using the dissector, ensure you have:
 ### 1. Install Wireshark
 Install Wireshark from the official wireshark download portal: https://www.wireshark.org/download.html 
 
-the latest stable Version is at the moment 4.4.9
+the latest stable Version is at the moment 4.6
 
 ### 2. Place the bplus plugin
-Place the bplus.dll in the plugins directory, for example: `C:\Program Files\Wireshark\plugins\4.4\epan` 
+Place the bplus.dll in the plugins directory, for example: `C:\Program Files\Wireshark\plugins\4.6\epan` 
 
 ### 3. Protocol add in Decoding
 After opening Wireshark successfully, you need to press on Analyze→ Decode as...

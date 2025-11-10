@@ -8,7 +8,7 @@ This guide provides instructions on how to install and use the b-plus MDILink Wi
 
 Before using the dissector, ensure you have:
 
-- Wireshark version 4.4
+- Wireshark version 4.6
 - The custom dissector binary (`.so`)
 
 ---
@@ -24,7 +24,7 @@ rsaad@rsaad:~$ sudo apt-get install wireshark
 ```
 
 ### 2. Place the bplus plugin
-Place bplus.so into Wireshark's plugin directory: `/usr/lib/x86_64-linux-gnu/wireshark/plugins/4.4/epan/`
+Place bplus.so into Wireshark's plugin directory: `/usr/lib/x86_64-linux-gnu/wireshark/plugins/4.6/epan/`
 
 ### 3. Run Wireshark
 Run wireshark with the following command

@@ -24,6 +24,15 @@ __ __
 - VCX removed
 - ECC bytes representation solved
 - I2C Sniffer proper registration for TShark usage
+
+__ __  
+
+## 1.0.1: 10.11.2025: Release Version
+
+**New/Modified Features:**  
+
+- Define TimeSync Parameters in daq.csi2
+
 __ __  
 Copyright (c) 2025, b-plus technologies GmbH  
 __ __ 
